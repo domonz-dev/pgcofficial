@@ -21,16 +21,16 @@ GIPHY_API_KEY = "dc6zaTOxFJmzC"
 
 async def status_task():
     while True:
-        await client.change_presence(game=discord.Game(name='for p!help', type=2))
-        await asyncio.sleep(20)
-        await client.change_presence(game=discord.Game(name='for p!help2', type=2))
-        await asyncio.sleep(20)
-        await client.change_presence(game=discord.Game(name='for p!help3', type=2))
-        await asyncio.sleep(20)
+        await client.change_presence(game=discord.Game(name='for p!abuseraditya1', type=2))
+        await asyncio.sleep(5)
+        await client.change_presence(game=discord.Game(name='for p!abuseraditya2', type=2))
+        await asyncio.sleep(5)
+        await client.change_presence(game=discord.Game(name='for p!fuckpgc3', type=2))
+        await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name=str(len(set(client.get_all_members())))+' users', type=3))
-        await asyncio.sleep(20)
+        await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name=str(len(client.servers))+' servers', type=3))
-        await asyncio.sleep(20)
+        await asyncio.sleep(5)
         
 
 
@@ -971,7 +971,8 @@ async def ownerinfo(ctx):
     
 
 @client.command(pass_context = True)
-async def help(ctx):
+async def abuseraditya
+(ctx):
     author = ctx.message.author
     r, g, b = tuple(int(x * 255) for x in colorsys.hsv_to_rgb(random.random(), 1, 1))
     embed = discord.Embed(color = discord.Color((r << 16) + (g << 8) + b))
